@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Utilities.ExtentReportManager"></listener>
+	</listeners>
+  <test thread-count="5" name="master">
+  	<parameter name="browser" value="edge"></parameter>
+	    <classes>
+	      <class name="Testcases.Tc_login_and_logout"/>
+	      <class name="Testcases.Tc_E2E"/>
+	      <class name="Testcases.Tc_loginwithinvalidcreds"/>
+	    </classes>
+  </test> <!-- master -->
+</suite> <!-- Suite -->

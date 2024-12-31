@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-31T08:28:47 IST" name="Suite" finished-at="2024-12-31T08:29:31 IST" duration-ms="44700">
+    <groups>
+    </groups>
+    <test started-at="2024-12-31T08:28:47 IST" name="master" finished-at="2024-12-31T08:29:31 IST" duration-ms="44700">
+      <class name="Testcases.Tc_loginwithinvalidcreds">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Tc_loginwithinvalidcreds@71e9ddb4]" started-at="2024-12-31T08:29:21 IST" name="setup" finished-at="2024-12-31T08:29:29 IST" duration-ms="8510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginwithinvalidcredentials()[pri:0, instance:Testcases.Tc_loginwithinvalidcreds@71e9ddb4]" started-at="2024-12-31T08:29:29 IST" name="loginwithinvalidcredentials" finished-at="2024-12-31T08:29:30 IST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithinvalidcredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.Tc_loginwithinvalidcreds@71e9ddb4]" started-at="2024-12-31T08:29:30 IST" name="teardown" finished-at="2024-12-31T08:29:31 IST" duration-ms="1406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.Tc_loginwithinvalidcreds -->
+      <class name="Testcases.Tc_E2E">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Tc_E2E@58a9760d]" started-at="2024-12-31T08:29:06 IST" name="setup" finished-at="2024-12-31T08:29:16 IST" duration-ms="10151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:1, instance:Testcases.Tc_E2E@58a9760d]" started-at="2024-12-31T08:29:16 IST" name="login" finished-at="2024-12-31T08:29:17 IST" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="sort()[pri:2, instance:Testcases.Tc_E2E@58a9760d]" started-at="2024-12-31T08:29:17 IST" name="sort" finished-at="2024-12-31T08:29:17 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sort -->
+        <test-method signature="addingitemstocart()[pri:3, instance:Testcases.Tc_E2E@58a9760d]" started-at="2024-12-31T08:29:17 IST" name="addingitemstocart" finished-at="2024-12-31T08:29:18 IST" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingitemstocart -->
+        <test-method signature="visiblequantityonicon()[pri:4, instance:Testcases.Tc_E2E@58a9760d]" started-at="2024-12-31T08:29:18 IST" name="visiblequantityonicon" finished-at="2024-12-31T08:29:18 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visiblequantityonicon -->
+        <test-method signature="clickoncart()[pri:5, instance:Testcases.Tc_E2E@58a9760d]" started-at="2024-12-31T08:29:18 IST" name="clickoncart" finished-at="2024-12-31T08:29:18 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickoncart -->
+        <test-method signature="itemscheckoncartpage()[pri:6, instance:Testcases.Tc_E2E@58a9760d]" started-at="2024-12-31T08:29:18 IST" name="itemscheckoncartpage" finished-at="2024-12-31T08:29:18 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemscheckoncartpage -->
+        <test-method signature="clickoncheckout()[pri:7, instance:Testcases.Tc_E2E@58a9760d]" started-at="2024-12-31T08:29:18 IST" name="clickoncheckout" finished-at="2024-12-31T08:29:18 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickoncheckout -->
+        <test-method signature="addinginfooncheckoutpage()[pri:8, instance:Testcases.Tc_E2E@58a9760d]" started-at="2024-12-31T08:29:18 IST" name="addinginfooncheckoutpage" finished-at="2024-12-31T08:29:19 IST" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addinginfooncheckoutpage -->
+        <test-method signature="capturingtotalprice()[pri:9, instance:Testcases.Tc_E2E@58a9760d]" started-at="2024-12-31T08:29:19 IST" name="capturingtotalprice" finished-at="2024-12-31T08:29:19 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturingtotalprice -->
+        <test-method signature="displaymessagecheck()[pri:10, instance:Testcases.Tc_E2E@58a9760d]" started-at="2024-12-31T08:29:19 IST" name="displaymessagecheck" finished-at="2024-12-31T08:29:19 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displaymessagecheck -->
+        <test-method signature="logout()[pri:11, instance:Testcases.Tc_E2E@58a9760d]" started-at="2024-12-31T08:29:19 IST" name="logout" finished-at="2024-12-31T08:29:19 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.Tc_E2E@58a9760d]" started-at="2024-12-31T08:29:19 IST" name="teardown" finished-at="2024-12-31T08:29:21 IST" duration-ms="1404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.Tc_E2E -->
+      <class name="Testcases.Tc_login_and_logout">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcases.Tc_login_and_logout@3c3d9b6b]" started-at="2024-12-31T08:28:47 IST" name="setup" finished-at="2024-12-31T08:29:03 IST" duration-ms="16534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:Testcases.Tc_login_and_logout@3c3d9b6b]" started-at="2024-12-31T08:29:03 IST" name="login" finished-at="2024-12-31T08:29:04 IST" duration-ms="877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:Testcases.Tc_login_and_logout@3c3d9b6b]" started-at="2024-12-31T08:29:04 IST" name="logout" finished-at="2024-12-31T08:29:05 IST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.Tc_login_and_logout@3c3d9b6b]" started-at="2024-12-31T08:29:05 IST" name="teardown" finished-at="2024-12-31T08:29:06 IST" duration-ms="1610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.Tc_login_and_logout -->
+    </test> <!-- master -->
+  </suite> <!-- Suite -->
+</testng-results>
